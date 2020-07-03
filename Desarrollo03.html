@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <title>Desarrollo03</title>
+</head>
+<body>
+    <h1>Sueldo de un Trabajador</h1>
+    <nav>
+    <script type="text/javascript">
+    let Nhijos,bonificacion,sueldoB,comision,tventas,descuento,sueldoN
+    Nhijos = prompt("Ingrese el Numero de Hijos (estudiando): ")
+    tventas = prompt("Ingresar el monto de lo vendido durante el mes: ")
+    bonificacion = Nhijos*50
+    comision = tventas/100*7.5 + bonificacion
+    sueldoB = 600 + comision
+    descuento = sueldoB*0.11/100
+    sueldoN =  sueldoB + comision 
+    document.write("<br>La Bonificación es : " + bonificacion)
+    document.write("<br>La comisión es : " + comision)
+    document.write("<br>El sueldo bruto es : " + sueldoB)
+    document.write("<br>El descuento es : " + descuento)
+    document.write("<br>El sueldo Neto del trabajador es: " + sueldoN)
+    </script> 
+    </nav>
+    <br><br>
+    <img src="img/dinero.jpg" alt="">
+    <p><a href="index.html">Regresar al Principal</a></p>
+    <script src="js/codigo.js"></script>
+    
+    
+</body>
+</html>

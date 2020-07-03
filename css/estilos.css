@@ -1,0 +1,35 @@
+html{
+    background-color: violet;
+
+}
+header h1{
+    background-color: pink;
+    height: 50px;
+}
+header{
+    text-align: center;
+    color: blue;
+}
+nav{
+    text-align: center;
+}
+section div{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    
+}
+footer{
+    text-align: center;
+    color: blue;
+    
+}
+nav a {
+    font-size: 30px;
+}
+footer h2{
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}

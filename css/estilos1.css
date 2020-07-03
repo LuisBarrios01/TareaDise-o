@@ -1,0 +1,16 @@
+html{
+    background-color: black;
+}
+body{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+body a{
+    font-size: 30px;
+    color: white;
+}
+img{
+    height: 500px;
+    width: 800px;
+}

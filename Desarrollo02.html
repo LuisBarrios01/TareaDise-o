@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos3.css">
+    <title>Desarrollo02</title>
+</head>
+<body>
+    <h1>Bonificacion de Profesores</h1>
+    <p><a href="index.html">Regresar al Principal</a></p>
+    <script src="js/codigo.js"></script>
+    <script type="text/javascript">
+    let trabajo,sueldo,Contratado,Nombrado,Nhijos,hijos,sueldoB,Bono,Bhijos,Blaboral,Btotal
+    sueldo = prompt("Ingrese su sueldo: ")
+    Nhijos = prompt("Ingresar el Numero de hijos: ")
+    if(Nhijos>3){
+        hijos = 10
+    }else if(Nhijos<=3){
+        hijos = 25
+    }
+    Bhijos = Nhijos*hijos
+    trabajo = prompt("¿Usted es? 1--> Nombrado  y  2--> Contratado")
+    if(trabajo=1){
+        Blaboral = sueldo*0.15/100
+    }else if(trabajo=2){
+        Blaboral = sueldo*0.10/100
+    }
+    Btotal = Blaboral + Bhijos
+    document.write("<br>El bono por hijos es: " + Bhijos)
+    document.write("<br>El bono laboral es: " + Blaboral)
+    document.write("<br>El bono total es: " + Btotal)
+    </script>
+    <br><br>
+    <img src="img/profesores.jpg" alt="">
+</body>
+</html>

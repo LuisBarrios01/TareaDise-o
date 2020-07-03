@@ -1,0 +1,13 @@
+html{
+    background-color: coral;
+}
+body h1{
+    color: darkred;
+    background-color: orange;
+    font-size: 50px;
+}
+body{
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos1.css">
+    <title>Desarrollo01</title>
+</head>
+<body>
+    <h1>Categoria de Promedio</h1>
+    <script src="js/codigo.js"></script>
+    <script type="text/javascript">
+        let nota,categoria;
+        nota=prompt("Ingrese el promedio de la nota: ");
+        if(nota>=17){
+            categoría="Pertenece a la categoría A"
+        }
+        else if(nota>=14){
+            categoría="Pertenece a la categoría B"
+        }
+        else if (nota>=12){
+            categoría="Pertenece a la categoría C"
+        }
+        else{
+            categoría="Pertenece a la categoría D"
+        }
+        document.write(categoría);
+    </script>
+    <p><a href="index.html">Regresar al Principal</a></p>
+    <img src="img/esfuerzo.jpg" alt="">
+</body>
+</html>
